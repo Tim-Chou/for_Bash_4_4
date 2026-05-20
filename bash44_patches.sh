@@ -11,6 +11,7 @@ do
   else
      apatch="patch -p0 < ../bash4-0$num"
      echo "$apatch"
-     num=$(( $num+1))
+     num=$(( $num+1 ))
   fi
 done
+echo "Happy patching!"
