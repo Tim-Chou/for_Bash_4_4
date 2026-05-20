@@ -1,4 +1,5 @@
 #! /bin/bash
+cd ../
 numbers=12
 num=1
 
